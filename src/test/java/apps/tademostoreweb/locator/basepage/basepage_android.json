@@ -1,0 +1,5 @@
+{
+  "genericLabel": "//span[text()='%s'][1]",
+  "genericLink": "//a[text()='%s'][1]",
+  "topMenu": "//div[@class='menu-main-container']//a[text()='%s']"
+}

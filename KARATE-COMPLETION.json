@@ -1,0 +1,68 @@
+{
+  "java": [
+    "com.intuit.karate.driver.Driver",
+    "common.wrapper.driver.AndroidDriver",
+    "common.wrapper.driver.IosDriver",
+    "common.wrapper.driver.WindowsDriver"
+  ],
+  "javascript": [
+    "src\\test\\java\\common\\helper\\javascript\\business-helper.js",
+    "src\\test\\java\\common\\helper\\javascript\\datetime-helper.js",
+    "src\\test\\java\\common\\helper\\javascript\\driver-helper.js",
+    "src\\test\\java\\common\\helper\\javascript\\image-helper.js",
+    "src\\test\\java\\common\\helper\\javascript\\number-helper.js",
+    "src\\test\\java\\common\\helper\\javascript\\random-helper.js",
+    "src\\test\\java\\common\\helper\\javascript\\resources-helper.js",
+    "src\\test\\java\\common\\helper\\javascript\\string-helper.js",
+    "src\\test\\java\\common\\helper\\javascript\\wait-helper.js"
+  ],
+  "business": {
+    "pathTemplate": "src\\test\\java\\apps\\%s\\business",
+    "appName": [
+      "tademostoreweb"
+    ]
+  }, 
+  "custom": [
+    {
+      "method": "call",
+      "parameters": "",
+      "returnType": "",
+      "isKeyword": true
+    },
+    {
+      "method": "match1",
+      "parameters": "",
+      "returnType": "",
+      "isKeyword": true
+    },
+    {
+      "method": "driver",
+      "parameters": "",
+      "returnType": "",
+      "isKeyword": true
+    },
+    {
+      "method": "def",
+      "parameters": "",
+      "returnType": "",
+      "isKeyword": true
+    },
+    {
+      "method": "read",
+      "parameters": "",
+      "returnType": ""
+    },
+    {
+      "method": "print",
+      "parameters": "",
+      "returnType": "",
+      "isKeyword": true
+    },
+    {
+      "method": "url",
+      "parameters": "",
+      "returnType": "",
+      "isKeyword": true
+    }
+  ]
+}

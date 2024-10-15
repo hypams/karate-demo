@@ -1,0 +1,5 @@
+{
+  "product" : "footer > a[data-product_name='%s']",
+  "productName": "//a[text()='%s']",
+  "productAddedPopUp" : "//div[@class='et-notify pos-fixed top right']"
+}
