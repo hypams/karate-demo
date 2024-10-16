@@ -1,0 +1,3 @@
+{
+  "greetingLabel": "//h3[@class='title']//following-sibling::p"
+}

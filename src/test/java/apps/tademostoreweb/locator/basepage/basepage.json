@@ -5,5 +5,6 @@
   "title": "//h1[@class='title']",
   "cartButton": "//div[@class='et_column et_col-xs-3 et_col-xs-offset-0 pos-static']//div[contains(@class, 'et_element et_b_header-cart')]/a",
   "cartNumberIcon": "span[class='et_b-icon'] > span[class*='et-cart-quantity et-quantity']",
-  "closeNewsLetterButton" : "//button[@class='pum-close popmake-close']"
+  "closeNewsLetterButton" : "//button[@class='pum-close popmake-close']",
+  "loginAndSignUpLabel": "//span[contains(@class,'mob-hide') and normalize-space(text()) = 'Log in / Sign up']/ancestor::a"
 }

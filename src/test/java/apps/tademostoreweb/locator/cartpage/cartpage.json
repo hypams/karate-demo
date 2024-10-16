@@ -1,4 +1,11 @@
 {
   "emptyMessage": "//h1[text()='YOUR SHOPPING CART IS EMPTY']",
-  "returnButton": "//a[span[text()='Return To Shop']]"
+  "returnButton": "//a[span[text()='Return To Shop']]",
+  "processLabel": "//a[contains(text(),'%s')]",
+  "quantityLabel": "//input[contains(@id,'quantity')]",
+  "productName": "//a[@class='product-title']",
+  "productPrice": "//td[@data-title='Price']//bdi",
+  "acceptCookieButton": "#cn-accept-cookie",
+  "checkoutButton": "a[class='checkout-button button alt wc-forward']",
+  "clearCartButton": "a[class='clear-cart']"
 }

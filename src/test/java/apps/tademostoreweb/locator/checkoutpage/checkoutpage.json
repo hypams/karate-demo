@@ -1,0 +1,12 @@
+{
+  "firstNameField": "#billing_first_name",
+  "lastNameField": "#billing_last_name",
+  "countryCombobox": "#billing_country",
+  "streetTextbox": "#billing_address_1",
+  "cityTextbox": "#billing_city",
+  "phoneTextbox": "#billing_phone",
+  "emailTextbox": "#billing_email",
+  "cashRadioButton": "#payment_method_cod",
+  "placeOrderButton": "#place_order",
+  "orderReviewTitle": "//span[text()='Your order']"
+}

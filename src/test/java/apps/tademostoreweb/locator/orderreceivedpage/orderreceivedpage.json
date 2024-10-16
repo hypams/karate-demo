@@ -1,0 +1,8 @@
+{
+  "orderSuccessLabel": "//p[text()='Thank you. Your order has been received.']",
+  "orderNumberLabel": "//li[normalize-space(text())='Order number:']/strong",
+  "dateLabel":  "//li[normalize-space(text())='Date:']/strong",
+  "paymentMethodLabel":  "//li[normalize-space(text())='Payment method:']/strong",
+  "totalAmountLabel":  "//li[normalize-space(text())='Total:']//bdi",
+  "productNameLabel":  "//thead[//th[text()='Product']]/following-sibling::tbody//a"
+}
