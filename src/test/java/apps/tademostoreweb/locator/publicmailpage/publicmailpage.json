@@ -1,0 +1,7 @@
+{
+  "findingTextbox": "#inbox_field",
+  "findButton": "button[class='primary-btn']",
+  "emailSubject": "//td[normalize-space(text())='%s']",
+  "resetPasswordLink": "//a[text()='Click here to set your new password.']",
+  "contentIframeSection": "#html_msg_body"
+}

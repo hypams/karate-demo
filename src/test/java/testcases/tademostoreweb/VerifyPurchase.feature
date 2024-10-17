@@ -3,9 +3,7 @@ Feature: Verify purchased by guest
     * def name = read('classpath:common/helper/javascript/random-helper.js')
     * def dateHelper = read('classpath:common/helper/javascript/datetime-helper.js')
     * def ultisHelper = read('classpath:common/helper/javascript/ultis-helper.js')
-    * def product = data('tademostoreweb', 'product')
 
-    * startConfig('chrome_local')
     * def appData = data('tademostoreweb', 'app')
     * def basePage = locator('tademostoreweb', 'basepage')
     * def cartPage = locator('tademostoreweb', 'cartpage')
@@ -18,6 +16,11 @@ Feature: Verify purchased by guest
     * def city = name().getRandomCity()
     * def phone = name().getRandomPhone()
     * def email = `${firstName}@mailinator.com`
+
+    * def product = data('tademostoreweb', 'product')
+    * def constant = data('tademostoreweb', 'constant')
+
+    * startConfig('chrome_local')
 
   Scenario: Verify purchase by guest
     # Step 1: Go to homepage
@@ -63,9 +66,9 @@ Feature: Verify purchased by guest
     * mouse().move(cartPage.checkoutButton).click()
 
     # VP: Click on "Process to checkout" button
-    * match attribute(format(cartPage.processLabel, 'Shopping cart'), 'class') contains 'active'
-    * match attribute(format(cartPage.processLabel, ' Checkout'), 'class') contains 'active'
-    * match attribute(format(cartPage.processLabel, ' Order'), 'class') !contains 'active'
+    * match attribute(format(cartPage.processLabel, 'Shopping cart'), 'class') contains constant.COLOR_BLACK_CLASS
+    * match attribute(format(cartPage.processLabel, ' Checkout'), 'class') contains constant.COLOR_BLACK_CLASS
+    * match attribute(format(cartPage.processLabel, ' Order'), 'class') !contains constant.COLOR_BLACK_CLASS
 
 
     # Step 7: Enter required fields  then click on "Place Order" button

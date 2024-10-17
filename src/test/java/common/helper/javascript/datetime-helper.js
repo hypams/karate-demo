@@ -31,6 +31,6 @@ function f() {
             var DateHelper = Java.type('common.helper.java.DateHelper');
             var dateHelper = new DateHelper();
             return dateHelper.getTodayWithFormat(formatDate)
-        }
+        },
     }
 }

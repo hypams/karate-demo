@@ -19,4 +19,16 @@ public class WaitHelper {
             }
         });
     }
+
+    public static void waitForExists(String locator) {
+        DriverUtils.driver().waitUntil(() -> {
+            try {
+                if (DriverUtils.driver().exists(locator))
+                    return true;
+                return null;
+            } catch (RuntimeException ex) {
+                return true;
+            }
+        });
+    }
 }
