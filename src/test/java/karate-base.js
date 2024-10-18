@@ -36,6 +36,7 @@ function f() {
     var stringHelper = karate.read('classpath:/common/helper/javascript/string-helper.js')()
     var randomHelper = karate.read('classpath:/common/helper/javascript/random-helper.js')()
     var imageHelper = karate.read('classpath:/common/helper/javascript/image-helper.js')()
+    var utilitiesHelper = karate.read('classpath:/common/helper/javascript/utilities-helper.js')()
 
     // Return all javascript methods
     return karate.merge(
@@ -46,6 +47,7 @@ function f() {
         numberHelper,
         stringHelper,
         randomHelper,
-        imageHelper
+        imageHelper,
+        utilitiesHelper
     )
 }

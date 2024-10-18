@@ -17,7 +17,16 @@ function f() {
                     start: true,
                     type: 'chromedriver',
                     showDriverLog: true,
-                    executable: 'C:\\Users\\duong.luong\\Documents\\drivers\\127\\chromedriver.exe'
+                    executable: '',
+                    webDriverSession: { capabilities:
+                        { alwaysMatch:
+                            {
+                            browserName: 'chrome',
+                            'goog:chromeOptions':
+                                { args: ['--incognito', '--start-maximized'] }
+                            }
+                        }
+                    }
                 }
         },
         msedge_local: {

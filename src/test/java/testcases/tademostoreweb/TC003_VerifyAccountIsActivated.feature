@@ -1,17 +1,13 @@
 Feature: Verify purchased by guest
   Background:
-    * def nameHelper = read('classpath:common/helper/javascript/random-helper.js')
-    * def dateHelper = read('classpath:common/helper/javascript/datetime-helper.js')
-    * def waitHelper = read('classpath:common/helper/javascript/wait-helper.js')
-
     * def basePage = locator('tademostoreweb', 'basepage')
     * def registerPage = locator('tademostoreweb', 'registerpage')
     * def accountPage = locator('tademostoreweb', 'accountpage')
     * def baseMailPage = locator('tademostoreweb', 'basemailpage')
     * def publicMailPage = locator('tademostoreweb', 'publicmailpage')
 
-    * def name = nameHelper().getRandomFirstName()
-    * def mail = `${name}${dateHelper().getTodayWithFormat('yyyymmdd')}@mailinator.com`
+    * def name = getRandomFirstName()
+    * def mail = `${name}${getTodayWithFormat('yyyymmdd')}@mailinator.com`
 
     * def appData = data('tademostoreweb', 'app')
     * def constant = data('tademostoreweb', 'constant')
@@ -53,19 +49,17 @@ Feature: Verify purchased by guest
 
     # Step 8: Click on email with subject contained "Sample Website account has been created!"
     * def emailGreeting = format(publicMailPage.emailSubject, constant.TA_MAIL_SUBJECT)
-    * waitHelper().waitForExists(emailGreeting)
+    * waitForExists(emailGreeting)
     * click(emailGreeting)
 
     # Step 9: Find and click on hyperlink "Click here to set your new password." in the email content
     * switchFrame(publicMailPage.contentIframeSection)
-    * waitHelper().waitForExists(publicMailPage.resetPasswordLink)
+    * waitForExists(publicMailPage.resetPasswordLink)
     * scroll(publicMailPage.resetPasswordLink).click()
     * switchFrame(null)
-#    * def href = attribute(publicMailPage.resetPasswordLink, 'href')
 
     # Step 10: Enter new password and confirm password
     * switchPage('/my-account/lost-password/?show-reset-form=true&action=newaccount')
-#    * driver href
     * input(accountPage.newPasswordTextbox, constant.DEFAULT_PASSWORD)
     * input(accountPage.confirmPasswordTextbox, constant.DEFAULT_PASSWORD)
 
@@ -73,6 +67,6 @@ Feature: Verify purchased by guest
     * click(accountPage.saveButton)
 
     # VP: Message appear and background color is green
-    * waitHelper().waitForExists(accountPage.title)
+    * waitForExists(accountPage.title)
     * match exists(accountPage.successMessageLabel) == true
     * match attribute(accountPage.successMessageLabel, 'class') == constant.COLOR_GREEN_CLASS
