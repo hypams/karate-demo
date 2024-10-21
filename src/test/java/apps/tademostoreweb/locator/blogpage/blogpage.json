@@ -1,0 +1,6 @@
+{
+  "continueReadingButton": "//div[contains(text(),'This is the content of my first post.')]//span[@class='read-more']",
+  "leftArrow": "//i[@class='et-icon et-left-arrow']",
+  "postDetailLeftArrow": "div.post-details>a",
+  "title": "title"
+}
