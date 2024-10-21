@@ -1,0 +1,60 @@
+{
+  "java": [
+    "com.intuit.karate.driver.Driver",
+    "common.wrapper.driver.AndroidDriver",
+    "common.wrapper.driver.IosDriver",
+    "common.wrapper.driver.WindowsDriver"
+  ],
+  "javascript": [
+    "src\\test\\java\\common\\helper\\javascript"
+  ],
+  "business": [
+    {
+      "appFolder": "src\\test\\java\\apps",
+      "businessPart": "business"
+    }
+  ],
+  "custom": [
+    {
+      "method": "call",
+      "parameters": "",
+      "returnType": "",
+      "isKeyword": true
+    },
+    {
+      "method": "match",
+      "parameters": "",
+      "returnType": "",
+      "isKeyword": true
+    },
+    {
+      "method": "driver",
+      "parameters": "",
+      "returnType": "",
+      "isKeyword": true
+    },
+    {
+      "method": "def",
+      "parameters": "",
+      "returnType": "",
+      "isKeyword": true
+    },
+    {
+      "method": "read",
+      "parameters": "",
+      "returnType": ""
+    },
+    {
+      "method": "print",
+      "parameters": "",
+      "returnType": "",
+      "isKeyword": true
+    },
+    {
+      "method": "url",
+      "parameters": "",
+      "returnType": "",
+      "isKeyword": true
+    }
+  ]
+}

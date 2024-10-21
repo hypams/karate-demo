@@ -1,0 +1,4 @@
+{
+  "dynamicButton": "//XCUIElementTypeButton[@label=\"%s\"]",
+  "dynamicText": "//XCUIElementTypeStaticText[@name=\"%s\"]"
+}

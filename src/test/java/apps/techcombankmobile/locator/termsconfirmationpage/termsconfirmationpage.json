@@ -1,0 +1,4 @@
+{
+  "termCheckbox": "//android.widget.ImageView[@resource-id=\"vn.com.techcombank.bb.app:id/ivCheckbox\"]",
+  "termUnCheckbox": "//android.widget.ImageView[@resource-id=\"vn.com.techcombank.bb.app:id/ivCheckbox\"]"
+}

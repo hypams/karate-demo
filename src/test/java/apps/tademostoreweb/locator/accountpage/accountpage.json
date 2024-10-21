@@ -1,0 +1,8 @@
+{
+  "title": "h1.title",
+  "greetingLabel": "h3.title~p",
+  "newPasswordTextbox": "#password_1",
+  "confirmPasswordTextbox": "#password_2",
+  "saveButton": "button.woocommerce-Button",
+  "successMessage": "div[role=alert]"
+}

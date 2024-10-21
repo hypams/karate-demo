@@ -1,0 +1,7 @@
+{
+  "shopLabel": "//h1[text()='Shop']",
+  "productPriceShop": "//h2[a[text()='%s']]/following-sibling::span[@class='price']//bdi",
+  "productNameShop": "//div[contains(@class,'product-details')]/a[@data-product_name='%s']",
+  "addToCartIcon": "//footer[contains(@class,'footer-product')]//a[@data-product_name='%s' and contains(@class,'add_to_cart_button')]",
+  "addedProductTooltip": "//div[text()='Product added.']"
+}

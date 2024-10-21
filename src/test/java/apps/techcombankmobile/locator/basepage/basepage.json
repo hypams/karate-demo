@@ -1,0 +1,4 @@
+{
+  "dynamicText": "//android.widget.TextView[@text=\"%s\"]",
+  "dynamicButton": "//android.widget.TextView[@resource-id=\"vn.com.techcombank.bb.app:id/tvTitle\" and @text=\"%s\"]/parent::*/parent::android.widget.RelativeLayout"
+}

@@ -1,0 +1,11 @@
+{
+  "emailTextbox": "#reg_email",
+  "registerButton": "button[name='register']",
+  "acceptCookieButton": "#cn-accept-cookie",
+  "newPasswordTextbox": "#password_1",
+  "confirmPasswordTextbox": "#password_2",
+  "saveButton": "button[value='Save']",
+  "usernameTextbox": "#username",
+  "passwordTextbox": "#password",
+  "loginButton": "button[value='Log in']"
+}

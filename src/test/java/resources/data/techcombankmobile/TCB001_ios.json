@@ -1,0 +1,6 @@
+{
+  "welcomeMessage": "Welcome! Which option are you interested in?",
+  "verifyMobileNumberText": "Let’s verify your mobile number",
+  "invalidPhoneError": "Invalid phone number. Please input again",
+  "obsotp005Error": "Invalid mobile number format. Please enter numbers only.(OBS-OTP-005)"
+}

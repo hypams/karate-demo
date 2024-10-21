@@ -1,0 +1,16 @@
+{
+  "firstname": "Auto",
+  "lastname": "Test",
+  "country": "VN",
+  "address": "Tan Binh",
+  "cityList": [
+    "Ho Chi Minh",
+    "Hue",
+    "Da Nang"
+  ],
+  "postcode": "70000",
+  "phone": "(+84) (0)28 3990 3839",
+  "email": "auto.test%s.%s@mailinator.com",
+  "password": "TAtraining123",
+  "isCreateAccount": false
+}

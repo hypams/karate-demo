@@ -1,0 +1,3 @@
+{
+  "phoneTextbox": "//android.widget.EditText[@resource-id=\"vn.com.techcombank.bb.app:id/etPhone\"]"
+}

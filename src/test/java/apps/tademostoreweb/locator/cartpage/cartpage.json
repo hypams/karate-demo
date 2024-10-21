@@ -1,0 +1,13 @@
+{
+  "emptyCartMessage": "//div[@class='cart-empty empty-cart-block']/h1",
+  "returnToShopButton": "//span[text()='Return To Shop']",
+  "shoppingCartLink": "//a[@href='https://demo.testarchitect.com/cart/' and @data-step='1']",
+  "checkOutLink": "//a[@href='https://demo.testarchitect.com/checkout/' and @data-step='2']",
+  "orderStatusLink": "//a[@href='#' and @data-step='3']",
+  "productTitle": "//a[contains(@class,'product-title')]",
+  "productPrice": "//td[contains(@class,'product-price')]//bdi",
+  "productQuantity": "//td[contains(@class,'product-quantity')]//input",
+  "productSubTotal": "//td[contains(@class,'product-subtotal')]//bdi",
+  "proceedCheckOutButton": "//a[contains(text(),'Proceed to checkout')]",
+  "clearCartButton": "a[class='clear-cart']"
+}

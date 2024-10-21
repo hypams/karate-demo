@@ -1,0 +1,16 @@
+{
+  "shoppingCartLink": "//a[@href='https://demo.testarchitect.com/cart/' and @data-step='1']",
+  "checkOutLink": "//a[@href='https://demo.testarchitect.com/checkout/' and @data-step='2']",
+  "orderStatusLink": "//a[@href='#' and @data-step='3']",
+  "firstNameTextbox": "#billing_first_name",
+  "lastNameTextbox": "#billing_last_name",
+  "addressTextbox": "#billing_address_1",
+  "countryDropdown": "#billing_country",
+  "townCityTextbox": "#billing_city",
+  "zipCodeTextbox": "#billing_postcode",
+  "phoneTextbox": "#billing_phone",
+  "emailTextbox": "#billing_email",
+  "paymentMethodCOD": "#payment_method_cod",
+  "createAccountCheckBox": "#createaccount",
+  "placeOrderButton": "//button[text()='Place order']"
+}

@@ -1,0 +1,6 @@
+{
+  "usernameTextbox": "#username",
+  "passwordTextbox": "#password",
+  "rememberCheckbox": "#rememberme",
+  "loginButton": "button.woocommerce-form-login__submit"
+}

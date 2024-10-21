@@ -1,0 +1,4 @@
+{
+  "termCheckbox": "//XCUIElementTypeButton[@name=\"ic ono unCheck\"]",
+  "termUnCheckbox": "//XCUIElementTypeButton[@name=\"ic ono checkBox\"]"
+}

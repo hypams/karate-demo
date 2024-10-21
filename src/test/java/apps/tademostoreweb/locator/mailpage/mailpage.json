@@ -1,0 +1,7 @@
+{
+  "genericLink":  "//a[text()='%s']",
+  "findTextBox": "#inbox_field",
+  "goButton": "button[class=primary-btn]",
+  "emailGreeting": "td.ng-binding:nth-of-type(3)",
+  "contentIframeSection": "#html_msg_body"
+}

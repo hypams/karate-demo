@@ -1,0 +1,12 @@
+{
+  "genericLabel": "//span[normalize-space(text()) = '%s'][1]",
+  "genericLink": "//a[text()='%s'][1]",
+  "topMenu": "//div[@class='menu-main-container']//a[text()='%s']",
+  "title": "//h1[@class='title']",
+  "cartButton": "//div[@class='header-wrapper']//div[contains(@class,'et_b_header-cart')]/a",
+  "closeAdPopupButton": "//button[contains(@class,'close')]",
+  "cartQuantityCount": "//div[@class='header-wrapper']//span[contains(@class,'et_b-icon')]//span[contains(@class,'et-cart-quantity')]",
+  "appleLogo": "//div[@class='swiper-slide swiper-slide-active']//img",
+  "lgLogo": "//div[@class='swiper-slide swiper-slide-next']//img",
+  "canonLogo": "//img[@src='https://demo.testarchitect.com/wp-content/uploads/2016/05/4-1-1.png']"
+}

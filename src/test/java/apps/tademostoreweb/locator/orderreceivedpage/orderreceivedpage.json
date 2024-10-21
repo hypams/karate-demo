@@ -1,0 +1,8 @@
+{
+  "thankYouMessage": "//p[contains(@class,'thankyou-order-received')]",
+  "orderNumber": "//li[contains(text(),'Order number')]/strong",
+  "orderDate": "//li[contains(@class,'date')]/strong",
+  "total": "//li[contains(text(),'Total:')]//bdi",
+  "paymentMethod": "//li[contains(text(),'Payment method')]/strong",
+  "orderItem": "//tr[contains(@class,'woocommerce-table')]//a"
+}
